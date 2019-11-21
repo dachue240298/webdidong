@@ -1,0 +1,253 @@
+﻿.main
+{
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+.banner
+{
+	width: 980px;
+	height: 135px;
+	margin: 0 auto;
+}
+.anhQC
+{
+	width: 980px;
+	height: 75px;
+	margin:0 auto;
+}
+#khungtrai
+{
+	width: 755px;
+	float: left;
+	padding: 0 0 0 0;
+	border: 1px solid #cccccc;
+	height: auto;
+}
+#khungtrai-content
+{
+	width: 755px;
+	float: left;
+	padding: 0 0 0 0;
+	height: auto;
+}
+.khungsp
+{
+	width: 754px;
+	float: left;
+	padding: 0 0 0 0;
+	border: 1px solid #FF82AB;
+	height: auto;
+	margin-top:8px;
+	font-size:15px;
+}
+.anhSlideJquery
+{
+	width: 755px;
+	height: 345px;
+	text-align: center;
+	/*padding: 5px 0 5px 0;*/
+}
+.khung-tim-kiem
+{
+	width: 980px;
+	height: 33px;
+	background-color: #51A9FF;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	margin:0 auto;
+	text-align:right;
+}
+.button-search
+{
+	background-color:Transparent;
+	border: medium none;
+	color: #51A9FF;
+	cursor: pointer;
+	padding: 3px 4px 3px;
+	font-family: Times New Roman;
+	font-size: 16px;
+	font-weight: bold;
+}
+.col-1
+{
+	border-right: 1px solid #cccccc;
+	float: left;
+	height: 150px;
+	padding: 10px 0 10px 15px;
+	position: relative;
+	text-align: center;
+	width: 131px;
+}
+.line
+{
+	border-bottom: 1px solid #cccccc;
+	clear: both;
+}
+.khung-sp
+{
+	width: 747px;
+	height: 25px;
+	color: Black;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 5px 0 0 8px;
+	border-bottom:thin solid #ccc;
+	/*background-image:url('../Images/AnhNen/Img1.JPG');*/
+}
+.khungphai
+{
+	width: 230px;
+	float: right;
+}
+.khungphai-children
+{
+	width: 210px;
+	-moz-border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin:0 auto 5px 0;
+	float:right;
+}
+.top-right
+{
+	width: 205px;
+	height: 24px;
+	text-align: justify;
+	padding:4px 0 0 5px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 16px;
+	background-color: white;
+	color:White;
+	-moz-border-radius: 5px 5px 0 0;
+	border-bottom: thin solid #cccccc;
+	background-image:url('../Images/AnhNen/Top-Right.JPG');
+}
+.top-right-children
+{
+	width: 202px;
+	height: 35px;
+	text-align: justify;
+	padding: 8px 0 0 8px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #FF3300;
+}
+.thuong-hieu
+{
+	height: 40px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	width: 100px;
+}
+.thuong-hieu p
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top:0;
+}
+.gia
+{
+	background-image: url( '../../Images/AnhNen/access_head_bg.png' );
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+.gia a
+{
+	font-size: 14px;
+	text-decoration: none;
+	color: Black;
+	font-family: Arial;
+}
+.anh-quang-cao
+{
+	width: 210px;
+	float: right;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	text-align: center;
+	padding-top: 2px;
+	-moz-border-radius:5px;
+}
+.footer
+{
+	width: 980px;
+	float: left;
+	border: 1px solid #cccccc;
+	height: auto;
+	text-align: center;
+	font-size: 16px;
+	padding: 5px 0 5px 0;
+	margin:4px auto 5px 0;
+}
+.khung-dat-hang
+{
+	width:755px;
+	height:auto;
+	margin:8px 0;
+	font-size:15px;
+}
+.khung-dat-hang table
+{
+	width:350px;
+	margin:auto;
+}
+.khung-dat-hang table tr
+{
+	height:25px;
+}
+.tablePhone
+{
+	width:180px;
+	height:140px;
+	padding-bottom:6px;
+	margin:2px;
+}
+.tableChiTietSP
+{
+	font-size:12px;
+	font-family:Tahoma;
+}
+.tableChiTietSP td
+{
+	border: 1px solid #ddd;
+	padding:3px 6px;
+	vertical-align:top;
+}
+.tableRepeaterFirm
+{
+	width:970px;
+	border:none;
+}
+.tableRepeaterFirm td
+{
+	padding:4px;
+}
+.tableRepeaterFirm td.header
+{
+	text-align:center;
+	border:thin solid #ccc;
+	border-right:none;
+}
+.tableOrder
+{
+	width:700px;
+	border:none;
+	/*border:thin solid #ccc;*/
+}
+.tableOrder td
+{
+	padding:4px;
+}
+.tableOrder td.header1
+{
+	text-align:center;
+	border:thin solid #ccc;
+	border-right:none;
+}

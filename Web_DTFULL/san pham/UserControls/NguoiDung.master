@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NguoiDung.master.cs" Inherits="UserControls_NguoiDung" %>
+
+<%@ Register Src="~/UserControls/MenuNgang.ascx" TagName="MnuNgang" TagPrefix="mnuNgang" %>
+<%@ Register Src="~/UserControls/KhungPhai.ascx" TagName="KhungPhai" TagPrefix="KhPhai" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="Footer" TagPrefix="footer" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../CSS/CSSBody.css" rel="stylesheet" type="text/css" />
+
+    <script src="../CSS/jquery-1.5.1.js" type="text/javascript"></script>
+
+    <script src="../CSS/Jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 980px; margin: 0 auto">
+        <div>
+            <mnuNgang:MnuNgang runat="server" />
+        </div>
+        <div class="anhQC">
+            <div style="text-align: right; padding: 5px 5px 0 0; font-size: 15px">
+                <a href="../GiaoDien/DatHangOnline.aspx" style="text-decoration: none; color: blue">Thông tin giỏ hàng <asp:Label runat="server" ID="lbShoppingCart"></asp:Label></a>
+                <asp:Label runat="server" ID="lbTrangThai"></asp:Label>
+                <asp:HyperLink runat="server" ID="hlQuanLy" NavigateUrl="~/GiaoDien/QuanLyNhaSX.aspx" Visible="false" Text="Quản lý sản phẩm"></asp:HyperLink>
+               <%-- <asp:Button runat="server" ID="btnThoat" Text="Thoát" Visible="false" />--%>
+                <asp:LinkButton runat="server" ID="lbtnThoat" Text="Thoát khỏi tài khoản" 
+                    onclick="lbtnThoat_Click" Visible="false"></asp:LinkButton>
+            </div>
+        </div>
+        <div id="khungtrai-content">
+            <asp:ContentPlaceHolder runat="server" ID="Content1">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <KhPhai:KhungPhai runat="server" />
+        </div>
+        <div>
+            <footer:Footer runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>
