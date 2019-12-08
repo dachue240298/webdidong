@@ -9,11 +9,11 @@
                 alt="1" />
             <img src="../Images/AnhQuangCao/hinh-2.gif" title="anh2" width="700px" height="339px"
                 alt="2" />
-            <img src="../Images/AnhQuangCao/hinh-3.gif" title="anh3" width="700px" height="339px"
+            <img src="../Images/AnhQuangCao/hinh-3.jpg" title="anh3" width="700px" height="339px"
                 alt="3" />
-            <img src="../Images/AnhQuangCao/hinh-4.gif" title="anh4" width="700px" height="339px"
+            <img src="../Images/AnhQuangCao/hinh-4.jpg" title="anh4" width="700px" height="339px"
                 alt="4" />
-            <img src="../Images/AnhQuangCao/hinh-5.gif" title="anh5" width="700px" height="339px"
+            <img src="../Images/AnhQuangCao/hinh-5.jpg" title="anh5" width="700px" height="339px"
                 alt="5" />
         </div>
     </div>

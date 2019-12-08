@@ -16,13 +16,12 @@
 	height: 75px;
 	margin:0 auto;
 }
-#khungtrai
-{
-	width: 755px;
-	float: left;
-	padding: 0 0 0 0;
-	border: 1px solid #cccccc;
-	height: auto;
+#khungtrai {
+    width: 755px;
+    float: left;
+    padding: 0 0 0 0;
+    border: 1px solid #00ffff;
+    height: auto;
 }
 #khungtrai-content
 {
@@ -31,15 +30,14 @@
 	padding: 0 0 0 0;
 	height: auto;
 }
-.khungsp
-{
-	width: 754px;
-	float: left;
-	padding: 0 0 0 0;
-	border: 1px solid #FF82AB;
-	height: auto;
-	margin-top:8px;
-	font-size:15px;
+.khungsp {
+    width: 754px;
+    float: left;
+    padding: 0 0 0 0;
+    border: 1px solid #ed497d;
+    height: auto;
+    margin-top: 8px;
+    font-size: 15px;
 }
 .anhSlideJquery
 {
@@ -48,26 +46,24 @@
 	text-align: center;
 	/*padding: 5px 0 5px 0;*/
 }
-.khung-tim-kiem
-{
-	width: 980px;
-	height: 33px;
-	background-color: #51A9FF;
-	margin-bottom: 5px;
-	padding-top: 3px;
-	margin:0 auto;
-	text-align:right;
+.khung-tim-kiem {
+    width: 980px;
+    height: 33px;
+    background-color: #3197f7;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    margin: 0 auto;
+    text-align: right;
 }
-.button-search
-{
-	background-color:Transparent;
-	border: medium none;
-	color: #51A9FF;
-	cursor: pointer;
-	padding: 3px 4px 3px;
-	font-family: Times New Roman;
-	font-size: 16px;
-	font-weight: bold;
+.button-search {
+    background-color: Transparent;
+    border: medium none;
+    color: #ff0000;
+    cursor: pointer;
+    padding: 3px 4px 3px;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: bold;
 }
 .col-1
 {
@@ -175,16 +171,15 @@
 	padding-top: 2px;
 	-moz-border-radius:5px;
 }
-.footer
-{
-	width: 980px;
-	float: left;
-	border: 1px solid #cccccc;
-	height: auto;
-	text-align: center;
-	font-size: 16px;
-	padding: 5px 0 5px 0;
-	margin:4px auto 5px 0;
+.footer {
+    width: 980px;
+    float: left;
+    border: 1px solid #aaffaa;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+    margin: 4px auto 5px 0;
 }
 .khung-dat-hang
 {

@@ -66,16 +66,10 @@
     </div>
     <div class="khungphai-children">
         <div class="top-right">
-            Tin tức nổi bật
-        </div>
-        <div style="font-size: 14px; padding-left: 4px">
-            <marquee direction="up" scrollamount="2" scrolldelay="40">
-            <a href="http://nguoiquangphianam.com" style="text-decoration:none">Nơi kết nối cộng đồng người Quảng</a><br />
-            <a href="https://www.thegioididong.com" style="text-decoration:none"> Tham khảo giá điện thoại</a><br /></marquee>
-        </div>
+           </div>
     </div>
     <div class="anh-quang-cao">
-        <asp:Image ImageUrl="~/Images/AnhQuangCao/HOI THAO QNB.jpg" Width="198px" runat="server"
+        <asp:Image ImageUrl="~/Images/AnhQuangCao/vinfax.jpg" Width="198px" runat="server"
             ID="QC" />
     </div>
 </div>

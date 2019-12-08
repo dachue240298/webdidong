@@ -1,0 +1,7 @@
+ Tin tức nổi bật
+        </div>
+        <div style="font-size: 14px; padding-left: 4px">
+            <marquee direction="up" scrollamount="2" scrolldelay="40">
+            <a href="http://nguoiquangphianam.com" style="text-decoration:none">Nơi kết nối cộng đồng người Quảng</a><br />
+            <a href="https://www.thegioididong.com" style="text-decoration:none"> Tham khảo giá điện thoại</a><br /></marquee>
+        </div>

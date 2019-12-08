@@ -17,29 +17,27 @@ width: 980px;
 margin: 20px auto;
 }
 
-ul#topnav
-{
-	float: left;
-	width: 980px;
-	position: relative;
-	font-size: 1.8em;
-	height: 35px;
-	text-transform: capitalize;
-	background-image: url( '../Images/AnhNen/gyht.JPG' );
-	top: 0px;
-	left: 0px;
-	background-color: #3333CC;
-	-moz-border-radius: 20px;
+ul#topnav {
+    float: left;
+    width: 980px;
+    position: relative;
+    font-size: 1.8em;
+    height: 35px;
+    text-transform: capitalize;
+    background-image: url( '../Images/AnhNen/anhNen.JPG' );
+    top: 0px;
+    left: 0px;
+    background-color: #00ffff;
+    -moz-border-radius: 20px;
 }
 
-ul#topnav li
-{
-	float: left;
-	height: 35px;
-	padding: 0px;
-	border-right: thin solid;
-	border-right-color: #005680;
-}
+    ul#topnav li {
+        float: left;
+        height: 35px;
+        padding: 0px;
+        border-right: thin solid;
+        border-right-color: #48db48;
+    }
 
 ul#topnav li a
 {
@@ -85,10 +83,10 @@ ul#topnav li:hover ul {
 display: block;
 }
 
-ul#topnav li ul a {
-display: inline;
-color:#4033CB;
-}
+        ul#topnav li ul a {
+            display: inline;
+            color: #56ff56;
+        }
 
 ul#topnav li ul a:hover {
 text-decoration:none;
