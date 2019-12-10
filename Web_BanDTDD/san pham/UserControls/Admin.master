@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="UserControls_Admin" %>
+
+<%@ Register Src="~/UserControls/MenuNgang.ascx" TagName="MnuNgang" TagPrefix="mnuNgang" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="Footer" TagPrefix="footer" %>
+<%@ Register Src="~/UserControls/MenuSanPham.ascx" TagName="MnuQly" TagPrefix="mnuQL" %>
+<%@ Register Src="~/UserControls/MenuNgangQuanLy.ascx" TagName="MenuNgangQL" TagPrefix="MnuNgangQL" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../CSS/CSSBody.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/MenuQuanTri.css" rel="stylesheet" type="text/css" />
+
+    <script src="../CSS/jquery-1.5.1.js" type="text/javascript"></script>
+    
+    <script src="../CSS/jquery.validate.js" type="text/javascript"></script>
+    <script src="../CSS/Jquery.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 980px; margin: 0 auto">
+        <div>
+            <MnuNgangQL:MenuNgangQL runat="server" />
+        </div>
+        <div class="anhQC">
+        </div>
+        <%--<div>
+            <mnuQL:MnuQly runat="server" />
+        </div>--%>
+        <div class="content" style="width:980px">
+            <asp:ContentPlaceHolder runat="server" ID="Content2">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <footer:Footer runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>
